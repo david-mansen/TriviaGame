@@ -1,0 +1,50 @@
+html, body {
+  background-color:#000;
+  background-image: url("../images/math.jpg");
+}
+
+
+.trivia-panel{
+  background-color: #111;
+  width: 100%;
+
+}
+
+.row-centered{
+  text-align: center;
+}
+
+.col-centered{
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px;
+}
+
+h1, h2, h3, h4, h5, p{
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+.answer-button{
+  display: block;
+  color: black;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.btn-sharp{
+  border-radius: 0;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.trivia-panel{
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  display: block;
+}
